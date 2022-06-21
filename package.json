@@ -1,0 +1,23 @@
+{
+  "name": "check-hrefs",
+  "version": "1.0.0",
+  "description": "Validate relative links in a directory of HTML files.",
+  "main": "src/index.js",
+  "bin": {
+    "check-hrefs": "bin/run.js"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "lint": "eslint src"
+  },
+  "keywords": ["url", "link", "validate", "check", "url-check", "link-check", "check-links", "href"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcoughlan/check-hrefs"
+  },
+  "author": "Barry Coughlan",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
